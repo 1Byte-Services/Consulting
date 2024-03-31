@@ -18,25 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-company: &name Kvedaras Consulting
+company: &name 1Byte Services
 title: *name
 
 # /favicon.ico generated from favicon.cc
-#
-# TODO
-# Update name & email to company name and email.  Include my name somewhere.  Or maybe just use my name and then company email
 
 author:
-  name: Joseph Kvedaras
-  email: jokvedaras@gmail.com
+  name: 1Byte Services
+  email: 1byteservices.nj@gmail.com
 
 tagline: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Providing consulting services in the information technology and cybersecurity domain since 2024
 
-# TODO - Set url to https://<organization>.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Helpful guide when hosting on github: https://mademistakes.com/mastering-jekyll/site-url-baseurl/
+# Set url to https://<organization>.github.io
+url: "https://1Byte-Services.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# Set baseurl to repository name in github
+baseurl: "/consulting" # the subpath of your site, e.g. /blog
 
 # Used from github-pages gem if folder is not a .git repo
 #repository: jokvedaras/jekyll-website
@@ -58,7 +57,7 @@ minima:
   skin: auto
   social_links:
     - platform: github
-      user_url: https://github.com/jokvedaras/jekyll-website
+      user_url: https://github.com/1Byte-Services/Consulting
     - platform: linkedin
       user_url: https://linkedin.com/in/jkvedaras
 

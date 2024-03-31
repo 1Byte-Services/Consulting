@@ -6,7 +6,7 @@ layout: page
 order: 1
 ---
 
-<img src="/assets/stockvault-data-loss-concept-open-supplicating-hand-over-binary-code281547.jpg" alt="drawing" height="250" width="800"/>
+<img src="{{ '/assets/stockvault-data-loss-concept-open-supplicating-hand-over-binary-code281547.jpg' | relative_url }}" alt="hand-over-binary-code" height="250" width="800"/>
 
 <br>
 Wether you need an extra set of hands for some items in the backlog or a complete program developed, we are here to help!
@@ -27,12 +27,13 @@ Supporting businesses both small and large, our area of expertise include:
    - C++, Python, Various scripting languages
    - CI/CD Development & Integration
    - Infrastructure As Code (IaC)
+   - Kubernetes and Containerization
 
 <br>
-For any onsite support, we service the New Jersey and Philadephia area:
+For remote support, we can accommodate any timezone.
+
+For onsite support, we service the New Jersey and Philadephia area:
 - South Jersey (Burlington County, Camden County, and Gloucester County)
 - Central Jersey (Monmouth County, Mercer County)
 - Philadephia, Pennsylvania
 - Basically, anywhere within an hour drive of Moorestown, NJ
-
-For remote support, can accommodate any timezone.

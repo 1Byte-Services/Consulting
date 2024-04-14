@@ -53,6 +53,11 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
+# Jekyll seo tag parameters to set search console verification head tags
+webmaster_verifications:
+  google: "ohxW0o5zw-9KXMJWAVzBixdYxicCctsX0XnZfHF95QU"
+  bing: "75B7FBC9E82840FE73256C3235596568"
+
 minima:
   skin: auto
   social_links:

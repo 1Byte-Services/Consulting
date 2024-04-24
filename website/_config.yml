@@ -52,6 +52,7 @@ show_downloads: false
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Jekyll seo tag parameters to set search console verification head tags
 webmaster_verifications:
